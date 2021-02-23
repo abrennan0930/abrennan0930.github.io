@@ -9,13 +9,13 @@
 title: DS NBA
 
 # Your name to show in the footer
-author: Ashley
+author: Ashley Brennan
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  Favorite Links:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
@@ -39,12 +39,9 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "ashley-brennan@lambdastudents.com"
+  github: abrennan0930
+  linkedin: fix
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
