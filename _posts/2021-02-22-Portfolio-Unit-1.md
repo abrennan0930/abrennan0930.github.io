@@ -48,7 +48,7 @@ I used a chi square test of independence, the chi2_contingency function, to see 
 
 After doing the test, the p-value is: 2.9795317795864165e-08. This is a very small p-value, so we would reject the null hypothesis and assume there is a relationship between college attended and successful NBA career. 
 
-## Conclusion
+## The Conclusion
 There, in fact, is a relationship between attending a Power 6 Conference for basketball and having a successful NBA career.
 
 
@@ -57,7 +57,7 @@ This barplot from Seaborn shows that the average number of years played for not 
 
 This catplot shows different career lengths and how many players correspond. A hue was added to show the difference between conference attended. Something to consider with this graph is that overall there are more NBA players that attended a Power Conference School, than those that didn’t. 
 
-## run df['Power School'].value_counts() To give percentage for each
+### run df['Power School'].value_counts() To give percentage for each
 
 
 This barplot shows that those that had a successful career more often attended a Power6
@@ -65,9 +65,9 @@ This barplot shows that those that had a successful career more often attended a
 ### Limitations
 Some schools, like Gonzaga, are top programs, though they are in a smaller conference. Adam Morrison, from Gonzaga was one of the top picks in his draft year, although he did become a bust. drop years like Lebron that would've attended a power 6 school, but didn't need to go to college.
 -drop foreigners? only limited to those
-### Similar Analyses.
+### Similar Analyses
 - need to find another similar analysis. check conferences websites perhaps..
-### Questions Raised.
+### Questions Raised
 Is it only if they were a starter in college that there is a correlation? If we took out Division 2 and lower schools, would there be a difference in Power 6 Conferences to other Division 1 schools. We could break down the data further to understand this relationship. 
 
 ## The Recap
