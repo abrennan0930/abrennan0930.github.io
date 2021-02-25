@@ -14,12 +14,12 @@ tags:[portfolio]
 
 ---
 
-## Introduction 
+## The Intro
 Have you ever wondered what are the odds that a player from a small college will have a successful professional career? Well, I have. So I tried to determine if attending a Power Six Conference for college basketball correlates to having a successful career in the NBA. 
 
 Many times watching the NBA or NFL, I am surprised when the players share the name of the college they attempted. I am often expecting to hear nothing but Alabama or Oklahoma for football, or only Kentucky or Duke for basketball. But often, what I hear is not what I expected. So, I wanted to test and see if there is truly a correlation to having a long, successful career and the college attended. If there is, it would make sense to me. But maybe the big school only helps you get into the professional league, and from there everyone has as good of a shot at having a long career. 
 
-## Provide relevant background information on your topic.
+## The Background
 
 Same Bowie is a name you may or may not know. He was a 7’1 center at Kentucky. He was picked by the Trailblazers in the 1984 NBA draft, the second pick in the first round. He was picked BEFORE Michael Jordan. And he was one of the biggest NBA busts of all time. Tyler Hansborough was a more recent player for UNC, from 2005 to 2009. He was a star in the ACC and was the 13th pick in the 2009 draft to the Pacers. He bounced around from the Pacers to the Raptors to the Hornets for seven years with little playing time before moving to the basketball leagues in China, where he currently plays. On the other hand, the Celtics’ Larry Bird was one of the greatest players of all time, and he attended Indiana State University.
 
@@ -29,7 +29,7 @@ For a certain number of years attending college wasn't mandatory, and several no
 
 The dataset used was found on Kaggle, published by Omri Goldstein. The data on this file was scraped from basketball-reference.com. The data-set contains aggregate individual statistics in the NBA since 1950, 67 seasons, from basic box-score attributes such as points, assists, and rebounds to more advanced money-ball like features such as Value Over Replacement. It does not have data from seasons since 2017.
 
-## Statistical Methods
+## The Statistics 
 
 For determining if there is a relationship between attending a Power 6 Conference and having a successful NBA Career, we will use a Chi-Square Test of Interdependence. The hypotheses are as follows: 
 -Ho: There is no relationship between college attended and successful NBA career.
@@ -44,13 +44,13 @@ I dropped any row with NAN for college, as we only want to compare those that we
 ### Statistical Methods
 I used a chi square test of independence, the chi2_contingency function, to see if there was a correlation between Power 6 conference and a successful career in the NBA.
 
-## Results
+## The Results
 
 After doing the test, the p-value is: 2.9795317795864165e-08. This is a very small p-value, so we would reject the null hypothesis and assume there is a relationship between college attended and successful NBA career. 
 
 ## Conclusion
 There, in fact, is a relationship between attending a Power 6 Conference for basketball and having a successful NBA career.
-## Summarize the key features of your visualizations.
+
 
 This barplot from Seaborn shows that the average number of years played for not attending a Power6 is just under 4, for attending a Power6 just over 4
 
@@ -70,7 +70,7 @@ Some schools, like Gonzaga, are top programs, though they are in a smaller confe
 ### Questions Raised.
 Is it only if they were a starter in college that there is a correlation? If we took out Division 2 and lower schools, would there be a difference in Power 6 Conferences to other Division 1 schools. We could break down the data further to understand this relationship. 
 
-## Recap
+## The Recap
 
 While there is no proven causation, there is a significant correlation with attending a major conference and having a long NBA career. So, I would recommend anyone interested in that to go to Duke.
 
