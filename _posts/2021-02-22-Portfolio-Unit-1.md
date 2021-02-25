@@ -31,15 +31,17 @@ The dataset used was found on Kaggle, published by Omri Goldstein. The data on t
 
 ## The Statistics 
 
-For determining if there is a relationship between attending a Power 6 Conference and having a successful NBA Career, we will use a Chi-Square Test of Interdependence. The hypotheses are as follows: 
+For determining if there is a relationship between attending a Power 6 Conference and having a successful NBA Career, we will use a Chi-Square Test of Independence. The hypotheses are as follows:
+
 -Ho: There is no relationship between college attended and successful NBA career.
+
 -Ha: There is a relationship between college attended and successful NBA career.
 
 ### Data Wrangling // Feature Engineering
 The dataset only showed the starting and ending year for each player. From here I subtracted the two to calculate the total years played for each player. Then I created a new "Successful Career" that includes those players that played for at least double the amount of time as an average NBA career. I calculated the average number of years played for each player, then doubled that, and applied it to each player that qualified. Roughly 20% of the players received a “Yes” for “Successful Career”, so this seemed like a fitting measure.
  
 I also created a label for Power Six Conference, and I applied to each row to find who attended a qualifying school. 
-I dropped any row with NAN for college, as we only want to compare those that went.
+I dropped any row with a null college value, as we only want to compare those that went.
 
 ### Statistical Methods
 I used a chi square test of independence, the chi2_contingency function, to see if there was a correlation between Power 6 conference and a successful career in the NBA.
@@ -63,10 +65,11 @@ This catplot shows different career lengths and how many players correspond. A h
 This barplot shows that those that had a successful career more often attended a Power6
 
 ### Limitations
-Some schools, like Gonzaga, are top programs, though they are in a smaller conference. Adam Morrison, from Gonzaga was one of the top picks in his draft year, although he did become a bust. drop years like Lebron that would've attended a power 6 school, but didn't need to go to college.
--drop foreigners? only limited to those
+Some schools, like Gonzaga, are top programs, though they are in a smaller conference. Adam Morrison, from Gonzaga was one of the top picks in his draft year, although he did become a bust. These programs help the cause for conferences outside of the Power 6 overall. We could also have dropped the years from circa 1995 to 2005, where players would've attended a power 6 school, but didn't need to go to college.
+
 ### Similar Analyses
 - need to find another similar analysis. check conferences websites perhaps..
+- 
 ### Questions Raised
 Is it only if they were a starter in college that there is a correlation? If we took out Division 2 and lower schools, would there be a difference in Power 6 Conferences to other Division 1 schools. We could break down the data further to understand this relationship. 
 
