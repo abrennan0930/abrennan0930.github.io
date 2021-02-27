@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Portfolio Unit 1
-subtitle: College Predicted Successful NBA Career
+title: College Predicted Successful NBA Career
+subtitle: Portfolio Unit 1
 cover-img: assets/img/thumb.png
 thumbnail-img: assets/img/thumb.png
 share-img: assets/img/thumb.png
